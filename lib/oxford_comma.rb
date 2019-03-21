@@ -1,7 +1,7 @@
 # "kiwi, durian, starfruit, mangos, dragon fruits, lychees, and pomelos"
 
 def oxford_comma(array)
-  while array.length == 1 
+  if array.length == 1 
   puts array.join
   while array.length == 2 
   puts array.join(" and ")
